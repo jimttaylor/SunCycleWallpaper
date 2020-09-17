@@ -1,10 +1,10 @@
-# SunCycleWallpaper
+# WeatherCycleWallpaper
 
-A simple Python script to change the wallpaper in a GNOME desktop environment according to location-based real-time sunrise/sunset data.
+A simple Python script to change the wallpaper in a GNOME desktop environment according to location-based real-time sunrise/sunset and weather data. 
 
 ![demo](demo.gif)
 
-*Note: An internet connection is required. If the connection is lost, the wallpaper will be updated based on the last-known location and sunrise/sunset data.*
+*Note: An internet connection is required. If the connection is lost, the wallpaper will be updated based on the last-known location, sunrise/sunset, and weather data.*
 
 ### Prerequisites
 
@@ -33,7 +33,7 @@ Note that the cron job doesn't actually run the Python script itself -- it runs 
 -  [dateutil](https://dateutil.readthedocs.io/en/stable/) -- for date/time calculations
 -  [ip-api.com](http://ip-api.com/) -- approximating location
 -  [Sunrise Sunset](https://sunrise-sunset.org/) -- getting sunrise/sunset times
-
+-  [SunCyclewallpaper](https://github.com/khanu263/SunCycleWallpaper) -- base code from which this was extended
 For the wallpapers seen in the demonstration, go [here](https://imgur.com/gallery/D6ia1).
 
 ### License
